@@ -6,7 +6,10 @@ This is [terraform](https://www.terraform.io/) command for
 ## Packages
 
 - `terraform`
-- `aws` cli v2 (required by Terraform AWS EKS module)  
+- `helm` (required by Helm Terraform Helm module)
+- `kubectl` (required by `helm`)
+- `aws-iam-authenticator` (required by `kubectl` AWS authentication)
+- `aws` cli v2 (required by Terraform AWS EKS module and `aws-iam-authenticator`)  
 
 ## License
 
